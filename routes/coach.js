@@ -44,8 +44,6 @@ router.get('/getcoachbyid/:id',async(req,res)=>{
 
     }
 })
-
-
 //Update coach by id
 router.put("/updatecoach/:id", async (req, res) => {
     try {
